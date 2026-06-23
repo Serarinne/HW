@@ -4,12 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
-    <title>{{ env('APP_NAME') }} | HD & 4K Honkai: Star Rail Wallpapers</title>
+    <title>{{ env('APP_NAME') }} | Honkai: Star Rail Wallpapers HD & 4K</title>
     <meta name="description" content="Download thousands of high-quality Honkai: Star Rail wallpapers, character backgrounds, and game fanart in HD and 4K for desktop and mobile." />
     <meta name="robots" content="index, follow, max-image-preview:large" />
     <link rel="canonical" href="{{ url()->current() }}" />
 
-    <meta property="og:title" content="{{ env('APP_NAME') }} | HD & 4K Honkai: Star Rail Wallpapers" />
+    <meta property="og:title" content="{{ env('APP_NAME') }} | Honkai: Star Rail Wallpapers HD & 4K" />
     <meta property="og:description" content="Download thousands of high-quality Honkai: Star Rail wallpapers, character backgrounds, and game fanart in HD and 4K for desktop and mobile." />
     <meta property="og:url" content="{{ url()->current() }}" />
     <meta property="og:type" content="website" />

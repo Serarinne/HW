@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
-    <title>{{ !empty($query) ? 'HD & 4K ' . ucwords($query) . ' Honkai: Star Rail Wallpapers' : 'Search Honkai: Star Rail Wallpapers' }} - {{ env('APP_NAME') }}</title>
+    <title>{{ !empty($query) ? ucwords($query) . ' Honkai: Star Rail Wallpapers' : 'Search Honkai: Star Rail Wallpapers' }} - {{ env('APP_NAME') }}</title>
     <meta name="description" content="{{ !empty($query) ? 'Download high-quality ' . $query . ' Honkai: Star Rail wallpapers, character backgrounds, and fanart in HD and 4K.' : 'Search thousands of high-quality Honkai: Star Rail character and faction wallpapers on '.env('APP_NAME').' for desktop and mobile.' }}" />
     
     @if(!empty($query))
